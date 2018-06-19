@@ -1,0 +1,138 @@
+.row{
+    	display: flex;
+    	width: 100%
+}
+
+.col1{
+    	flex: 32%;
+        color: white;
+        border-radius: 25px;
+    	background-image: url('./todo6.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    	height: 678px;
+}
+
+.col2{
+    	flex: 40%;
+    	padding: 10px;
+        padding-left: 20px;
+        border-left: 1px solid #E8E8E8;
+        border-radius: 25px;
+}
+
+.yo:hover{
+    opacity: 0.5;
+}
+
+.list-group-item{
+    width: 85%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#up_button{
+    position: absolute;
+    right: 0;
+    margin-top: 6px;
+    margin-right: 75px;
+    color: #0099FF;
+}
+
+#submit_button{
+    margin-top: 24px;
+    margin-left: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+#submit_button:hover{
+    color: #C8C8C8;
+}
+
+#up_button:hover{
+    color: #007ACC;
+}
+
+#down_button{
+    position: absolute;
+    right: 0;
+    color: #FF9900;
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+#down_button:hover{
+    color: #CC7A00;
+}
+
+#lister{
+    margin-top: 50px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+#myTodo{
+    width: 83%;
+    margin-top: 30px;
+    float: left;"
+}
+
+#simpleUl{
+    color: white;
+    font-size: 20px;
+    margin-left:18px;
+    opacity: 0.5;
+}
+
+.whitehr{
+    background-color: white;
+    width: 520px;
+    margin-left: 44px;
+}
+
+#spantag{
+    color: #C30FF0;
+    font-size: 54px;
+    font-weight: bold;
+    margin-top: 51px;
+    width: 200px;
+
+}
+
+#counter{
+    font-size: 55px;
+    color: #C30FF0;
+    margin-left: 30px;
+}
+
+#delete_todo{
+    margin-left: 300px;
+    color: grey;
+}
+
+#todo_sort{
+    margin-left: 20px;
+    color: grey;
+}
+
+#extraButtons{
+     padding-bottom: 6px;
+}
+#myarea{
+    height: 450px;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+hr{
+    border-width: 2px;
+    background-color: #E0E0E0;
+}
